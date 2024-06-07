@@ -1,9 +1,9 @@
-import { Routes } from '@angular/router';
-import { SecondsLeftComponent } from './shared/seconds-left/seconds-left.component';
+import { Routes } from "@angular/router";
+import { SecondsLeftComponent } from "./shared/seconds-left/seconds-left.component";
 
 export const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: SecondsLeftComponent,
   },
 ];
